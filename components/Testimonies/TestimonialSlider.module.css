@@ -1,0 +1,15 @@
+.mainDiv{
+    padding: 4rem 0px;
+    background-color: #fff;
+}
+
+.center{
+    display: none;
+}
+
+.prev::before, .next::before{
+    font-size: 40px;
+    position: relative;
+    top: 3px;
+}
+
