@@ -8,7 +8,7 @@ function CustomPage(props) {
         <Container>
           <div style={{ textAlign: "center" }}>
             <Typography variant="h4" className="mt-5">
-              Tallen's Custom built Software
+              Tallen&apos;s Custom built Software
             </Typography>
           </div>
           <Grid container spacing={3} className="my-4">
@@ -32,7 +32,7 @@ function CustomPage(props) {
                 >
                   <Typography variant="h4">Tallen</Typography>
                   Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
+                  typesetting industry. Lorem Ipsum has been the industry&apos;s
                   standard dummy text ever since the 1500s, when an unknown
                   printer took a galley of type and scrambled it to make a type
                   specimen book. It has survived not only five centuries, but
@@ -79,7 +79,7 @@ function CustomPage(props) {
                 >
                   <Typography variant="h4">FarmSell</Typography>
                   Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
+                  typesetting industry. Lorem Ipsum has been the industry&apos;s
                   standard dummy text ever since the 1500s, when an unknown
                   printer took a galley of type and scrambled it to make a type
                   specimen book. It has survived not only five centuries, but
@@ -120,7 +120,7 @@ function CustomPage(props) {
                 >
                   <Typography variant="h4">Sooma</Typography>
                   Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
+                  typesetting industry. Lorem Ipsum has been the industry&apos;s
                   standard dummy text ever since the 1500s, when an unknown
                   printer took a galley of type and scrambled it to make a type
                   specimen book. It has survived not only five centuries, but

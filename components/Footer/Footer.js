@@ -4,11 +4,11 @@ import config from '../config/config'
 function Footer() {
   return (
     <div>
-      <footer class="footer-14398 mt-5">
-        <div class="container">
-          <div class="row mb-5">
-            <div class="col-md-3">
-              <a href="#" class="footer-site-logo">
+      <footer className="footer-14398 mt-5">
+        <div className="container">
+          <div className="row mb-5">
+            <div className="col-md-3">
+              <a href="#" className="footer-site-logo">
                 {config.title}
                 <br/>
                 <img width="90px" src={config.logo} alt="Tallen" />
@@ -18,9 +18,9 @@ function Footer() {
                 officiis corporis optio natus.{" "}
               </p>
             </div>
-            <div class="col-md-2 ml-auto">
+            <div className="col-md-2 ml-auto">
               <h3>Services</h3>
-              <ul class="list-unstyled links">
+              <ul className="list-unstyled links">
                 <li>
                   <a href="#">Build</a>
                 </li>
@@ -38,9 +38,9 @@ function Footer() {
                 </li>
               </ul>
             </div>
-            <div class="col-md-2 ml-auto">
+            <div className="col-md-2 ml-auto">
               <h3>Press</h3>
-              <ul class="list-unstyled links">
+              <ul className="list-unstyled links">
                 <li>
                   <a href="#">Events</a>
                 </li>
@@ -58,9 +58,9 @@ function Footer() {
                 </li>
               </ul>
             </div>
-            <div class="col-md-2 ml-auto">
+            <div className="col-md-2 ml-auto">
               <h3>About</h3>
-              <ul class="list-unstyled links">
+              <ul className="list-unstyled links">
                 <li>
                   <a href="#">Contact</a>
                 </li>
@@ -80,12 +80,12 @@ function Footer() {
             </div>
           </div>
 
-          <div class="row mb-4">
-            <div class="col-12 pb-4">
-              <div class="line"></div>
+          <div className="row mb-4">
+            <div className="col-12 pb-4">
+              <div className="line"></div>
             </div>
-            <div class="col-md-6 text-md-left">
-              <ul class="list-unstyled link-menu nav-left">
+            <div className="col-md-6 text-md-left">
+              <ul className="list-unstyled link-menu nav-left">
                 <li>
                   <a href="#">Privacy Policy</a>
                 </li>
@@ -97,33 +97,33 @@ function Footer() {
                 </li>
               </ul>
             </div>
-            <div class="col-md-6 text-md-right">
-              <ul class="list-unstyled social nav-right">
+            <div className="col-md-6 text-md-right">
+              <ul className="list-unstyled social nav-right">
                 <li>
                   <a href="#">
-                    <span class="icon-twitter"></span>
+                    <span className="icon-twitter"></span>
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <span class="icon-instagram"></span>
+                    <span className="icon-instagram"></span>
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <span class="icon-facebook"></span>
+                    <span className="icon-facebook"></span>
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <span class="icon-pinterest"></span>
+                    <span className="icon-pinterest"></span>
                   </a>
                 </li>
               </ul>
             </div>
 
-            <div class="row">
-              <div class="col-md-7">
+            <div className="row">
+              <div className="col-md-7">
                 <p>
                   <small>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.

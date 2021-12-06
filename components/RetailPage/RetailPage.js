@@ -62,6 +62,7 @@ const useStyles = makeStyles((theme) => ({
 
 let apps = [
   {
+    id : "1",
     nextpage: "/retail/Farmsell",
     img: "./images/products/farmsell.jpeg",
     Name: "Farm",
@@ -69,6 +70,7 @@ let apps = [
     Description: "This app is for managing your farm",
   },
   {
+    id : "2",
     nextpage: "/retail/Sooma",
     img: "./images/products/sooma.png",
     Name: "Genda",
@@ -76,6 +78,7 @@ let apps = [
     Description: "Use this app to monitor different cars you manage",
   },
   {
+    id : "3",
     nextpage: "/retail/WeTalk",
     img: "./images/products/tallen.jpeg",
     Name: "WeTalk",
@@ -83,6 +86,7 @@ let apps = [
     Description: "Let us connect you with your clients with ease.",
   },
   {
+    id : "4",
     nextpage: "/retail/Farm",
     img: "./images/home-header01.jpg",
     Name: "Farm",
@@ -105,7 +109,6 @@ function RetailPage() {
         body="We have some of the best software developers and with there help, we have managed 
               to build some of the best, easy to customize software solutions for your business. All you have to do
               is buy the software, customize it to your style and start using. "
-              
       />
       <div className={classes.searchDiv}>
         <div className={classes.search}>
@@ -134,8 +137,8 @@ function RetailPage() {
         </div>
         <Grid container spacing={2}>
           {Data != ""
-            ? Data.map((app) => (
-                <Grid item xs={12} sm={4}>
+            ? Data.map((app, key) => (
+                <Grid key={app.id} item xs={12} sm={4}>
                   <ProductCard
                     img={app.img}
                     title={app.Name}

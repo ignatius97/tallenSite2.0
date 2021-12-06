@@ -6,48 +6,48 @@ import { Link } from "@material-ui/core";
 function HtmlHeader() {
   return (
     <div>
-      <div class="site-mobile-menu site-navbar-target">
-        <div class="site-mobile-menu-header">
-          <div class="site-mobile-menu-close mt-3">
-            <span class="icon-close2 js-menu-toggle"></span>
+      <div className="site-mobile-menu site-navbar-target">
+        <div className="site-mobile-menu-header">
+          <div className="site-mobile-menu-close mt-3">
+            <span className="icon-close2 js-menu-toggle"></span>
           </div>
         </div>
-        <div class="site-mobile-menu-body"></div>
+        <div className="site-mobile-menu-body"></div>
       </div>
 
-      <div class="site-navbar-wrap">
-        <div class="site-navbar-top">
-          <div class="container py-3">
-            <div class="row align-items-center">
-              <div class="col-6">
-                <div class="d-flex mr-auto">
-                  <a href="#" class="d-flex align-items-center mr-4">
-                    <span class="icon-envelope mr-2"></span>
-                    <span class="d-none d-md-inline-block">
+      <div className="site-navbar-wrap">
+        <div className="site-navbar-top">
+          <div className="container py-3">
+            <div className="row align-items-center">
+              <div className="col-6">
+                <div className="d-flex mr-auto">
+                  <a href="#" className="d-flex align-items-center mr-4">
+                    <span className="icon-envelope mr-2"></span>
+                    <span className="d-none d-md-inline-block">
                       Tallen@Tallen.Tech
                     </span>
                   </a>
-                  <a href="#" class="d-flex align-items-center mr-auto">
-                    <span class="icon-phone mr-2"></span>
-                    <span class="d-none d-md-inline-block">
+                  <a href="#" className="d-flex align-items-center mr-auto">
+                    <span className="icon-phone mr-2"></span>
+                    <span className="d-none d-md-inline-block">
                       +1 234 4567 8910
                     </span>
                   </a>
                 </div>
               </div>
-              <div class="col-6 text-right">
-                <div class="mr-auto">
-                  <a href="#" class="p-2 pl-0">
-                    <span class="icon-twitter"></span>
+              <div className="col-6 text-right">
+                <div className="mr-auto">
+                  <a href="#" className="p-2 pl-0">
+                    <span className="icon-twitter"></span>
                   </a>
-                  <a href="#" class="p-2 pl-0">
-                    <span class="icon-facebook"></span>
+                  <a href="#" className="p-2 pl-0">
+                    <span className="icon-facebook"></span>
                   </a>
-                  <a href="#" class="p-2 pl-0">
-                    <span class="icon-linkedin"></span>
+                  <a href="#" className="p-2 pl-0">
+                    <span className="icon-linkedin"></span>
                   </a>
-                  <a href="#" class="p-2 pl-0">
-                    <span class="icon-instagram"></span>
+                  <a href="#" className="p-2 pl-0">
+                    <span className="icon-instagram"></span>
                   </a>
                 </div>
               </div>
@@ -55,11 +55,11 @@ function HtmlHeader() {
           </div>
         </div>
 
-        <div class="site-navbar site-navbar-target js-sticky-header">
-          <div class="container">
-            <div class="row align-items-center">
-              <div class="col-2">
-                <h1 class="my-0 site-logo">
+        <div className="site-navbar site-navbar-target js-sticky-header">
+          <div className="container">
+            <div className="row align-items-center">
+              <div className="col-2">
+                <h1 className="my-0 site-logo">
                   <NextLink href="/" passHref>
                     <Link>
                       <div style={{ display: "flex", alignItems: "center" }}>
@@ -70,53 +70,53 @@ function HtmlHeader() {
                   </NextLink>
                 </h1>
               </div>
-              <div class="col-10">
-                <nav class="site-navigation text-right" role="navigation">
-                  <div class="container">
-                    <div class="d-inline-block d-lg-none ml-md-0 mr-auto py-3">
+              <div className="col-10">
+                <nav className="site-navigation text-right" role="navigation">
+                  <div className="container">
+                    <div className="d-inline-block d-lg-none ml-md-0 mr-auto py-3">
                       <a
                         href="#"
-                        class="site-menu-toggle js-menu-toggle text-white"
+                        className="site-menu-toggle js-menu-toggle text-white"
                       >
-                        <span class="icon-menu h3"></span>
+                        <span className="icon-menu h3"></span>
                       </a>
                     </div>
 
-                    <ul class="site-menu main-menu js-clone-nav d-none d-lg-block">
-                      <li class="active">
-                        <NextLink href="/" passHref class="nav-link">
+                    <ul className="site-menu main-menu js-clone-nav d-none d-lg-block">
+                      <li className="active">
+                        <NextLink href="/" passHref className="nav-link">
                           <Link>Home</Link>
                         </NextLink>
                       </li>
-                      <li class="has-children">
-                        <a href="#" class="nav-link">
+                      <li className="has-children">
+                        <a href="#" className="nav-link">
                           Services
                         </a>
-                        <ul class="dropdown arrow-top">
+                        <ul className="dropdown arrow-top">
                           <li>
-                            <NextLink href="/build" passHref class="nav-link">
+                            <NextLink href="/build" passHref className="nav-link">
                               <Link>Build</Link>
                             </NextLink>
                           </li>
                           <li>
-                            <NextLink href="/retail" passHref class="nav-link">
+                            <NextLink href="/retail" passHref className="nav-link">
                               <Link>Retail</Link>
                             </NextLink>
                           </li>
                           <li>
-                            <NextLink href="/custom" passHref class="nav-link">
+                            <NextLink href="/custom" passHref className="nav-link">
                               <Link>Custom</Link>
                             </NextLink>
                           </li>
                           <li>
-                            <NextLink href="/other" passHref class="nav-link">
+                            <NextLink href="/other" passHref className="nav-link">
                               <Link>Others</Link>
                             </NextLink>
                           </li>
 
-                          <li class="has-children">
+                          <li className="has-children">
                             <a href="#">Others</a>
-                            <ul class="dropdown">
+                            <ul className="dropdown">
                               <li>
                                 <a href="#">XD Designs</a>
                               </li>
@@ -131,7 +131,7 @@ function HtmlHeader() {
                         </ul>
                       </li>
                       <li>
-                        <NextLink href="/contact" passHref class="nav-link">
+                        <NextLink href="/contact" passHref className="nav-link">
                           <Link>Contact Us</Link>
                         </NextLink>
                       </li>
